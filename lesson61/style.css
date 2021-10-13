@@ -1,0 +1,135 @@
+.box_box{
+    margin: 0 auto;
+    padding: 0;
+    width: 1820px;
+}
+.nav{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.nav li{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+.nav li a{
+    text-decoration: none;
+    color: #303030;
+    font-size: 19px;
+}
+.sidebar{
+    width: 1425px;
+    height: 1.5px;
+    background: #828282;
+    margin-left: 205px;
+}
+
+.name{
+    color: black;
+    font-size: 75px;
+    margin-top: 50px;
+    margin-left: 205px;
+}
+.age{
+    color: black;
+    font-size: 25px;
+    text-align: center;
+    margin-top: -200px;
+}
+.photo{
+    margin: 0 auto;
+    margin-top: 85px;
+    margin-left: 450px;
+}
+.sidebar1{
+    margin: 0 auto;
+    height: 500px;
+    background: #F6F6F6;
+    width: 100%;
+    margin-top: 125px;    
+}
+.sidebar1 h1{
+    text-align: center;
+    margin-top: 50px;
+}
+.sidebar1 p{
+    margin-top: 175px;
+    font-size: 40px;
+    line-height: 22px;
+    text-align: center;
+}
+
+.sidebar2 {
+    margin: 0 auto;
+}
+
+.skills{
+    margin-top: 300px;
+    text-align: center;
+    font-size: 50px;
+}
+.skills-inf{
+    text-align: center;
+    margin-top: 100px;
+}
+.Adobe {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+
+}
+.Adobe-photo {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+    margin-bottom: -175px;
+}
+.Adobe-photo-rating {
+    margin-top: 200px;
+    height: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.sidebar3 {
+    margin-top: 200px;
+}
+.sidebar3-photo{
+    /* margin-top: -100px; */
+    display: flex;
+    justify-content: space-evenly;
+    /* margin: 0 auto; */
+}
+
+button{
+    height: 85px;
+    width: 200px;
+    background: black;
+    border-radius: 50px;
+    margin-top: -150px;
+    color: white;
+    font-size: 25px;
+    margin: 0 auto;
+    margin-left: 820px;
+
+}
+
+.footer {
+    margin-top: 100px;
+    height: 100px;
+    background-color: white;
+}
+
+.footer_p {
+    align-items: center;
+}
+
+
+@media screen and (max-width: 1200px) {
+    
+
+}
