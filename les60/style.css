@@ -1,0 +1,103 @@
+*{
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+nav{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+nav li{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+nav li a{
+    text-decoration: none;
+    color: #828282;
+    font-size: 19px;
+}
+.line{
+    width: 1425px;
+    height: 1.5px;
+    background: #828282;
+    margin-left: 205px;
+}
+.name{
+    color: black;
+    font-size: 75px;
+    margin-top: 50px;
+    margin-left: 205px;
+}
+.age{
+    color: black;
+    font-size: 25px;
+    text-align: center;
+    margin-top: -100px;
+}
+.photo{
+    margin: 0 auto;
+    margin-top: 85px;
+}
+.myself{
+    height: 500px;
+    background: #F6F6F6;
+    width: 100%;
+    margin-top: 125px;
+    position: absolute;
+    
+}
+.myself h1{
+    text-align: center;
+    margin-top: 50px;
+}
+.myself p{
+    margin-top: 175px;
+    font-size: 40px;
+    line-height: 22px;
+    text-align: center;
+}
+.skills{
+    margin-top: 750px;
+    text-align: center;
+    font-size: 50px;
+}
+.skills2{
+    text-align: center;
+    margin-top: 100px;
+}
+.programs{
+    margin-top: 200px;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.stars{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+.names{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+    margin-bottom: -175px;
+}
+.contacts{
+    text-align: center;
+    margin-top: 150px;
+}
+button{
+    height: 85px;
+    width: 200px;
+    background: black;
+    border-radius: 10px;
+    margin-top: -150px;
+    color: white;
+    font-size: 25px;
+    margin: 0 auto;
+}
